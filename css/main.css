@@ -1,0 +1,110 @@
+/*
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+body { background-color: #EAEAEA; font-family: 'Roboto Condensed', sans-serif; }
+a { text-decoration: none; }
+.eth-shell { width: 1140px; margin: auto; }
+/* Группированные стили стили */
+.eth-toppanel, .eth-toppanel nav ul, .eth-header,
+.eth-search-cart, .eth-search-cart form, .eth-cart,
+.eth-menu ul, .eth-htext>div {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+}
+.eth-toppanel > nav { font-size: 0.8em; }
+.eth-auth { font-size: 0.7em; }
+.eth-toppanel, .eth-header, .eth-cart { align-items: center; }
+.eth-cart, .eth-htext>div { justify-content: center; }
+.eth-toppanel, .eth-header { justify-content: space-between; }
+.eth-toppanel { text-transform: uppercase; }
+.eth-toppanel { color: #A8CACA; }
+.eth-toppanel a { color: inherit; }
+/* Верхняя панель сайта */
+.eth-toppanel-wrapper, .eth-toppanel { background: #26394A; }
+.eth-toppanel { height: 32px; }
+.eth-toppanel nav ul li:not(:last-child) {
+    padding-right: 1em;
+    margin-right: 1em;
+    border-right: 1px solid #586D7D;
+}
+.eth-toppanel a>.fa-lock { margin-right: 0.4em; }
+.eth-toppanel a:hover { color: #FFFFFF; }
+.eth-auth a:not(:last-child) { margin-right: 1em; }
+/* Заголовок сайта */
+.eth-header-wrapper, .eth-header { background-color: #FFFFFF; }
+.eth-header { height: 160px; }
+.eth-header .eth-logo img { width: 180px; }
+.eth-search-cart, .eth-search-cart button,
+.eth-cart { height: 38px; }
+.eth-search-cart button, .eth-cart { width: 38px; }
+.eth-search-cart input, .eth-search-cart button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+}
+.eth-search-cart input {
+    height: 36px;
+    width: 224px;
+    padding-left: 1em;
+    border-top: 1px solid #E4E4E4;
+    border-left: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+}
+.eth-search-cart button { border-bottom-right-radius: 10%; border-top-right-radius: 10% }
+.eth-cart, .eth-search-cart button {  background-color: #007D49; color: #EAFFF6; }
+.eth-cart:hover, .eth-search-cart button:hover {  background-color: #009456; }
+.eth-cart {
+    border-radius:10%;
+    margin-left: 1em;
+    position: relative;
+}
+.eth-cart .eth-cart-cnt {
+    height: 20px;
+    padding: 0 0.6em;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    font-size: 0.7em;
+    line-height: 20px;
+    top: -12px;
+    background-color: #FF7D37;
+    color: #FFFFFF;
+}
+/* Горизонтальное меню */
+.eth-menu-wrapper, .eth-menu { background-color: #FFFFFF; }
+.eth-menu-wrapper { border-top: 1px solid #9A9A9A; position: relative; }
+.eth-menu ul li a { display: block; padding: 1em; color: #1E1E1E; }
+.eth-menu { margin-top: -1px; }
+.eth-menu >div { height: 1px; background-color: #9A9A9A; }
+/* Контент */
+main { min-height: 100vh; }
+/* Материалы на главной странице */
+.eth-htext{ margin-top: 4em; text-align: center; text-transform: uppercase; }
+.eth-htext>div {
+    width: 100%;
+    height: 6px;
+    border-top: 6px double #5C5C5C;
+    position: relative;
+}
+.eth-htext h2 {
+    font-size: 2em;
+    margin-top: -0.8em;
+    background: #EAEAEA;
+    padding: 0 0.8em;
+    margin-bottom: 0.1em;
+}
+.eth-htext h3 { 
+    font-size: 1.2em;
+    color: #505050;
+}
+
+
+
+
+
+
